@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "erg進捗君",
+    "version": "0.1",
+    "description": "誠也の部屋のチェックボックスをリロードしても保持するためのChrome拡張機能",
+    "content_scripts": [
+        {
+          "matches": [
+            "https://seiya-saiga.com/*"
+          ],
+          "js": ["script.js"]
+        }
+    ],
+    "permissions": [
+    ],
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    }
+}
