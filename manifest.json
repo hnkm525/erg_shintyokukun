@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "erg進捗君",
-    "version": "0.1",
+    "version": "1.0",
     "description": "誠也の部屋のチェックボックスをリロードしても保持するためのChrome拡張機能",
     "content_scripts": [
         {
