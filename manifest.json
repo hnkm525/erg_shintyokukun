@@ -11,7 +11,7 @@
           "js": ["script.js"]
         }
     ],
-    "permissions": [
+    "permissions": []
     ],
     "icons": {
         "16": "images/icon16.png",
