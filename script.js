@@ -1,4 +1,5 @@
 const timer = 1000;
+
 var storage = localStorage;
 var url = location.href;
 var checklist = JSON.parse(storage.getItem(url));
